@@ -1,0 +1,26 @@
+/* Reset lề mặc định của trình duyệt */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 1. Khung chứa chính (Container) */
+.container {
+  min-height: 100vh;           /* Chiếm trọn 100% chiều cao màn hình */
+  background-color: #f0f2f5;
+
+  /* 3 DÒNG CỐT LÕI ĐỂ CĂN GIỮA HOÀN HẢO */
+  display: flex;
+  justify-content: center;     /* Căn giữa theo trục ngang */
+  align-items: center;         /* Căn giữa theo trục dọc */
+}
+
+/* 2. Thẻ nội dung bên trong (Center Card) */
+.center-card {
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
